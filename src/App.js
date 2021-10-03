@@ -9,7 +9,7 @@ import User from './pages/User';
 function App() {
   return (
     <BrowserRouter>
-      <div className="container">
+      <div>
         <Switch>
           <Route exact path="/" component={Login} />
           <Route exact path="/admin" component={Admin} />
