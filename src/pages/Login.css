@@ -1,0 +1,10 @@
+.center {
+  align-items: center;
+  text-align: center;
+  /* padding: 10px; */
+  margin: 10px;
+}
+
+.radio {
+  padding-right: 20px;
+}

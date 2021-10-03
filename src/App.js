@@ -9,11 +9,13 @@ import User from './pages/User';
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route exact path="/" component={Login} />
-        <Route exact path="/admin" component={Admin} />
-        <Route exact path="/user" component={User} />
-      </Switch>
+      <div>
+        <Switch>
+          <Route exact path="/" component={Login} />
+          <Route exact path="/admin" component={Admin} />
+          <Route exact path="/user" component={User} />
+        </Switch>
+      </div>
     </BrowserRouter>
   );
 }
