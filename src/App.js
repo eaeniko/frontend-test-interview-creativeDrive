@@ -5,17 +5,20 @@ import './App.css';
 import Login from './pages/Login';
 import Admin from './pages/Admin';
 import User from './pages/User';
+import AdminProvider from './context/AdminProvider';
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <Switch>
-          <Route exact path="/" component={Login} />
-          <Route exact path="/admin" component={Admin} />
-          <Route exact path="/user" component={User} />
-        </Switch>
-      </div>
+      <AdminProvider>
+        <div>
+          <Switch>
+            <Route exact path="/" component={Login} />
+            <Route exact path="/admin" component={Admin} />
+            <Route exact path="/user" component={User} />
+          </Switch>
+        </div>
+      </AdminProvider>
     </BrowserRouter>
   );
 }
