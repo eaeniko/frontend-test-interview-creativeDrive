@@ -6,6 +6,7 @@ import { useHistory } from 'react-router-dom';
 import './Login.css';
 
 export default function Login() {
+  document.title = 'Login';
   const [login, setLogin] = useState('user');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
