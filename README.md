@@ -1,6 +1,6 @@
 # Clonar e visualizar o projeto
 
-Clone no seu terminal : git clone git@github.com:eaeniko/frontend-test-interview-creativeDrive.git
+Clone no seu terminal : `git clone git@github.com:eaeniko/frontend-test-interview-creativeDrive.git`
 
 ## Instalar dependencias
 
